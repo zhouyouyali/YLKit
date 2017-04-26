@@ -13,6 +13,8 @@
 		D22221611EB05CC00003BD45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D222215F1EB05CC00003BD45 /* Main.storyboard */; };
 		D22221631EB05CC00003BD45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22221621EB05CC00003BD45 /* Assets.xcassets */; };
 		D22221661EB05CC00003BD45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22221641EB05CC00003BD45 /* LaunchScreen.storyboard */; };
+		D2A525031EB09DA1008D6A7A /* UIView+YLAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A524FE1EB09DA1008D6A7A /* UIView+YLAutoLayout.m */; };
+		D2A525041EB09DA1008D6A7A /* YLAutoLayoutAnalysis.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A525001EB09DA1008D6A7A /* YLAutoLayoutAnalysis.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +28,13 @@
 		D22221621EB05CC00003BD45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D22221651EB05CC00003BD45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D22221671EB05CC00003BD45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2A524D21EB07F26008D6A7A /* BlockType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockType.h; sourceTree = "<group>"; };
+		D2A524FB1EB09DA1008D6A7A /* BlockType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockType.h; sourceTree = "<group>"; };
+		D2A524FD1EB09DA1008D6A7A /* UIView+YLAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YLAutoLayout.h"; sourceTree = "<group>"; };
+		D2A524FE1EB09DA1008D6A7A /* UIView+YLAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YLAutoLayout.m"; sourceTree = "<group>"; };
+		D2A524FF1EB09DA1008D6A7A /* YLAutoLayoutAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAutoLayoutAnalysis.h; sourceTree = "<group>"; };
+		D2A525001EB09DA1008D6A7A /* YLAutoLayoutAnalysis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAutoLayoutAnalysis.m; sourceTree = "<group>"; };
+		D2A525011EB09DA1008D6A7A /* YLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLKit.h; sourceTree = "<group>"; };
+		D2A525021EB09DA1008D6A7A /* YYGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYGeometry.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,7 @@
 		D22221551EB05CC00003BD45 /* YLKit */ = {
 			isa = PBXGroup;
 			children = (
-				D2A524D11EB07F26008D6A7A /* YLKit */,
+				D2A524FA1EB09DA1008D6A7A /* YLKit */,
 				D22221591EB05CC00003BD45 /* AppDelegate.h */,
 				D222215A1EB05CC00003BD45 /* AppDelegate.m */,
 				D222215C1EB05CC00003BD45 /* ViewController.h */,
@@ -81,13 +89,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D2A524D11EB07F26008D6A7A /* YLKit */ = {
+		D2A524FA1EB09DA1008D6A7A /* YLKit */ = {
 			isa = PBXGroup;
 			children = (
-				D2A524D21EB07F26008D6A7A /* BlockType.h */,
+				D2A525011EB09DA1008D6A7A /* YLKit.h */,
+				D2A524FB1EB09DA1008D6A7A /* BlockType.h */,
+				D2A524FC1EB09DA1008D6A7A /* YLAutoLayout */,
+				D2A525021EB09DA1008D6A7A /* YYGeometry.h */,
 			);
 			name = YLKit;
 			path = ../../YLKit;
+			sourceTree = "<group>";
+		};
+		D2A524FC1EB09DA1008D6A7A /* YLAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D2A524FD1EB09DA1008D6A7A /* UIView+YLAutoLayout.h */,
+				D2A524FE1EB09DA1008D6A7A /* UIView+YLAutoLayout.m */,
+				D2A524FF1EB09DA1008D6A7A /* YLAutoLayoutAnalysis.h */,
+				D2A525001EB09DA1008D6A7A /* YLAutoLayoutAnalysis.m */,
+			);
+			path = YLAutoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +184,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A525031EB09DA1008D6A7A /* UIView+YLAutoLayout.m in Sources */,
 				D222215E1EB05CC00003BD45 /* ViewController.m in Sources */,
+				D2A525041EB09DA1008D6A7A /* YLAutoLayoutAnalysis.m in Sources */,
 				D222215B1EB05CC00003BD45 /* AppDelegate.m in Sources */,
 				D22221581EB05CC00003BD45 /* main.m in Sources */,
 			);

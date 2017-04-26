@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "BlockType.h"
+#import "YLKit.h"
 
 @interface ViewController ()
 
@@ -22,7 +22,7 @@
     UIView *v1 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 20, 40)];
     [v1 setBackgroundColor:[UIColor blueColor]];
  
-    block_void v;
+    [[self view] yl_autoLayoutByItem:@[v1]];
 }
 
 
