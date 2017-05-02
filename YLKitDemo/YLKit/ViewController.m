@@ -23,6 +23,8 @@
     [v1 setBackgroundColor:[UIColor blueColor]];
  
     [[self view] yl_autoLayoutByItem:@[v1]];
+    
+    
 }
 
 
