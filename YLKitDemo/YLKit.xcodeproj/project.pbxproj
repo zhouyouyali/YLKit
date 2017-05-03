@@ -13,13 +13,18 @@
 		D22221611EB05CC00003BD45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D222215F1EB05CC00003BD45 /* Main.storyboard */; };
 		D22221631EB05CC00003BD45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22221621EB05CC00003BD45 /* Assets.xcassets */; };
 		D22221661EB05CC00003BD45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22221641EB05CC00003BD45 /* LaunchScreen.storyboard */; };
-		D2A525031EB09DA1008D6A7A /* UIView+YLAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A524FE1EB09DA1008D6A7A /* UIView+YLAutoLayout.m */; };
-		D2A525041EB09DA1008D6A7A /* YLAutoLayoutAnalysis.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A525001EB09DA1008D6A7A /* YLAutoLayoutAnalysis.m */; };
 		D2A5250A1EB82030008D6A7A /* YLPublicMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A525091EB82030008D6A7A /* YLPublicMethod.m */; };
 		D2A5250D1EB82074008D6A7A /* YLFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A5250C1EB82074008D6A7A /* YLFile.m */; };
 		D2A525101EB82662008D6A7A /* YLTime.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A5250F1EB82662008D6A7A /* YLTime.m */; };
 		D2A5251A1EB83656008D6A7A /* NSString+YLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A525191EB83656008D6A7A /* NSString+YLKit.m */; };
 		D2A5251E1EB85584008D6A7A /* NSDictionary+YLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A5251D1EB85584008D6A7A /* NSDictionary+YLKit.m */; };
+		D2A525231EB860FB008D6A7A /* UIButton+YLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A525221EB860FB008D6A7A /* UIButton+YLKit.m */; };
+		D2A5252F1EB872AB008D6A7A /* UILabel+YLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A5252E1EB872AB008D6A7A /* UILabel+YLKit.m */; };
+		D2A525361EB87B64008D6A7A /* UIColor+YLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A525351EB87B64008D6A7A /* UIColor+YLKit.m */; };
+		D2A5254F1EB970B6008D6A7A /* UIView+YLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A525491EB970B6008D6A7A /* UIView+YLKit.m */; };
+		D2A525501EB970B6008D6A7A /* UIView+YLAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A5254C1EB970B6008D6A7A /* UIView+YLAutoLayout.m */; };
+		D2A525511EB970B6008D6A7A /* YLAutoLayoutAnalysis.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A5254E1EB970B6008D6A7A /* YLAutoLayoutAnalysis.m */; };
+		D2A525551EB977F3008D6A7A /* NSObject+YLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A525541EB977F3008D6A7A /* NSObject+YLKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +39,6 @@
 		D22221651EB05CC00003BD45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D22221671EB05CC00003BD45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2A524FB1EB09DA1008D6A7A /* YLBlockType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLBlockType.h; sourceTree = "<group>"; };
-		D2A524FD1EB09DA1008D6A7A /* UIView+YLAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YLAutoLayout.h"; sourceTree = "<group>"; };
-		D2A524FE1EB09DA1008D6A7A /* UIView+YLAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YLAutoLayout.m"; sourceTree = "<group>"; };
-		D2A524FF1EB09DA1008D6A7A /* YLAutoLayoutAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAutoLayoutAnalysis.h; sourceTree = "<group>"; };
-		D2A525001EB09DA1008D6A7A /* YLAutoLayoutAnalysis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAutoLayoutAnalysis.m; sourceTree = "<group>"; };
 		D2A525011EB09DA1008D6A7A /* YLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLKit.h; sourceTree = "<group>"; };
 		D2A525021EB09DA1008D6A7A /* YLCGType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCGType.h; sourceTree = "<group>"; };
 		D2A525081EB82030008D6A7A /* YLPublicMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPublicMethod.h; path = YLMethod/YLPublicMethod.h; sourceTree = "<group>"; };
@@ -50,6 +51,20 @@
 		D2A525191EB83656008D6A7A /* NSString+YLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YLKit.m"; sourceTree = "<group>"; };
 		D2A5251C1EB85584008D6A7A /* NSDictionary+YLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+YLKit.h"; path = "NSDictionary/NSDictionary+YLKit.h"; sourceTree = "<group>"; };
 		D2A5251D1EB85584008D6A7A /* NSDictionary+YLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+YLKit.m"; path = "NSDictionary/NSDictionary+YLKit.m"; sourceTree = "<group>"; };
+		D2A525211EB860FB008D6A7A /* UIButton+YLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YLKit.h"; sourceTree = "<group>"; };
+		D2A525221EB860FB008D6A7A /* UIButton+YLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YLKit.m"; sourceTree = "<group>"; };
+		D2A5252D1EB872AB008D6A7A /* UILabel+YLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YLKit.h"; sourceTree = "<group>"; };
+		D2A5252E1EB872AB008D6A7A /* UILabel+YLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YLKit.m"; sourceTree = "<group>"; };
+		D2A525341EB87B64008D6A7A /* UIColor+YLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YLKit.h"; sourceTree = "<group>"; };
+		D2A525351EB87B64008D6A7A /* UIColor+YLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YLKit.m"; sourceTree = "<group>"; };
+		D2A525481EB970B6008D6A7A /* UIView+YLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YLKit.h"; sourceTree = "<group>"; };
+		D2A525491EB970B6008D6A7A /* UIView+YLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YLKit.m"; sourceTree = "<group>"; };
+		D2A5254B1EB970B6008D6A7A /* UIView+YLAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YLAutoLayout.h"; sourceTree = "<group>"; };
+		D2A5254C1EB970B6008D6A7A /* UIView+YLAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YLAutoLayout.m"; sourceTree = "<group>"; };
+		D2A5254D1EB970B6008D6A7A /* YLAutoLayoutAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAutoLayoutAnalysis.h; sourceTree = "<group>"; };
+		D2A5254E1EB970B6008D6A7A /* YLAutoLayoutAnalysis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAutoLayoutAnalysis.m; sourceTree = "<group>"; };
+		D2A525531EB977F3008D6A7A /* NSObject+YLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+YLKit.h"; path = "NSObject/NSObject+YLKit.h"; sourceTree = "<group>"; };
+		D2A525541EB977F3008D6A7A /* NSObject+YLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YLKit.m"; path = "NSObject/NSObject+YLKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,21 +127,9 @@
 				D2A525021EB09DA1008D6A7A /* YLCGType.h */,
 				D2A525161EB83656008D6A7A /* YLCategory */,
 				D2A525061EB81FC1008D6A7A /* YLMethod */,
-				D2A524FC1EB09DA1008D6A7A /* YLAutoLayout */,
 			);
 			name = YLKit;
 			path = ../../YLKit;
-			sourceTree = "<group>";
-		};
-		D2A524FC1EB09DA1008D6A7A /* YLAutoLayout */ = {
-			isa = PBXGroup;
-			children = (
-				D2A524FD1EB09DA1008D6A7A /* UIView+YLAutoLayout.h */,
-				D2A524FE1EB09DA1008D6A7A /* UIView+YLAutoLayout.m */,
-				D2A524FF1EB09DA1008D6A7A /* YLAutoLayoutAnalysis.h */,
-				D2A525001EB09DA1008D6A7A /* YLAutoLayoutAnalysis.m */,
-			);
-			path = YLAutoLayout;
 			sourceTree = "<group>";
 		};
 		D2A525061EB81FC1008D6A7A /* YLMethod */ = {
@@ -145,8 +148,14 @@
 		D2A525161EB83656008D6A7A /* YLCategory */ = {
 			isa = PBXGroup;
 			children = (
+				D2A525471EB970B6008D6A7A /* UIView */,
+				D2A525331EB87B64008D6A7A /* UIColor */,
+				D2A5252C1EB872AB008D6A7A /* UILabel */,
+				D2A525201EB860FB008D6A7A /* UIButton */,
+				D2A5251F1EB85CA6008D6A7A /* UIView */,
 				D2A5251B1EB85565008D6A7A /* NSDictionary */,
 				D2A525171EB83656008D6A7A /* NSString */,
+				D2A525521EB977C5008D6A7A /* NSObject */,
 			);
 			path = YLCategory;
 			sourceTree = "<group>";
@@ -167,6 +176,70 @@
 				D2A5251D1EB85584008D6A7A /* NSDictionary+YLKit.m */,
 			);
 			name = NSDictionary;
+			sourceTree = "<group>";
+		};
+		D2A5251F1EB85CA6008D6A7A /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		D2A525201EB860FB008D6A7A /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				D2A525211EB860FB008D6A7A /* UIButton+YLKit.h */,
+				D2A525221EB860FB008D6A7A /* UIButton+YLKit.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		D2A5252C1EB872AB008D6A7A /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				D2A5252D1EB872AB008D6A7A /* UILabel+YLKit.h */,
+				D2A5252E1EB872AB008D6A7A /* UILabel+YLKit.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		D2A525331EB87B64008D6A7A /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				D2A525341EB87B64008D6A7A /* UIColor+YLKit.h */,
+				D2A525351EB87B64008D6A7A /* UIColor+YLKit.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		D2A525471EB970B6008D6A7A /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				D2A525481EB970B6008D6A7A /* UIView+YLKit.h */,
+				D2A525491EB970B6008D6A7A /* UIView+YLKit.m */,
+				D2A5254A1EB970B6008D6A7A /* YLAutoLayout */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		D2A5254A1EB970B6008D6A7A /* YLAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D2A5254B1EB970B6008D6A7A /* UIView+YLAutoLayout.h */,
+				D2A5254C1EB970B6008D6A7A /* UIView+YLAutoLayout.m */,
+				D2A5254D1EB970B6008D6A7A /* YLAutoLayoutAnalysis.h */,
+				D2A5254E1EB970B6008D6A7A /* YLAutoLayoutAnalysis.m */,
+			);
+			path = YLAutoLayout;
+			sourceTree = "<group>";
+		};
+		D2A525521EB977C5008D6A7A /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				D2A525531EB977F3008D6A7A /* NSObject+YLKit.h */,
+				D2A525541EB977F3008D6A7A /* NSObject+YLKit.m */,
+			);
+			name = NSObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,16 +314,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2A525031EB09DA1008D6A7A /* UIView+YLAutoLayout.m in Sources */,
 				D222215E1EB05CC00003BD45 /* ViewController.m in Sources */,
 				D2A5250A1EB82030008D6A7A /* YLPublicMethod.m in Sources */,
+				D2A525551EB977F3008D6A7A /* NSObject+YLKit.m in Sources */,
 				D2A5251A1EB83656008D6A7A /* NSString+YLKit.m in Sources */,
+				D2A5252F1EB872AB008D6A7A /* UILabel+YLKit.m in Sources */,
 				D2A5251E1EB85584008D6A7A /* NSDictionary+YLKit.m in Sources */,
-				D2A525041EB09DA1008D6A7A /* YLAutoLayoutAnalysis.m in Sources */,
 				D222215B1EB05CC00003BD45 /* AppDelegate.m in Sources */,
+				D2A525501EB970B6008D6A7A /* UIView+YLAutoLayout.m in Sources */,
+				D2A525361EB87B64008D6A7A /* UIColor+YLKit.m in Sources */,
 				D22221581EB05CC00003BD45 /* main.m in Sources */,
+				D2A525511EB970B6008D6A7A /* YLAutoLayoutAnalysis.m in Sources */,
+				D2A525231EB860FB008D6A7A /* UIButton+YLKit.m in Sources */,
 				D2A5250D1EB82074008D6A7A /* YLFile.m in Sources */,
 				D2A525101EB82662008D6A7A /* YLTime.m in Sources */,
+				D2A5254F1EB970B6008D6A7A /* UIView+YLKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

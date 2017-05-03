@@ -3,6 +3,8 @@
 //  Copyright © 2015年 Yaali. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
+
 typedef void(^yl_block_Void)   ();
 typedef void(^yl_block_Int)    (NSInteger integerValue);
 typedef void(^yl_block_Float)  (CGFloat floatValue);

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "YLKit.h"
+#import "UIView+YLKit.h"
 
 @interface ViewController ()
 
@@ -19,12 +20,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    UIView *v1 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 20, 40)];
+    UIView *v1 = [[UIView alloc] initWithFrame:CGRectMake(0, 100, 50, 40)];
     [v1 setBackgroundColor:[UIColor blueColor]];
  
     [[self view] yl_autoLayoutByItem:@[v1]];
-    
-    
+//    
+//    [v1 setYl_tapGesture:^{
+//        NSLog(@"xxx");
+//    }];
+
 }
 
 

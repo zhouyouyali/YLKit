@@ -1,10 +1,9 @@
 //
-//  YLAutoLayoutAnalysis.h
-//  YLLayoutDemo
+//  Created by Yaali on 15/4/18.
+//  Copyright © 2015年 Yaali. All rights reserved.
 //
-//  Created by zhouyouyali on 16/6/7.
-//  Copyright © 2016年 Yaali. All rights reserved.
-//
+
+
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
