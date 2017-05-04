@@ -7,5 +7,5 @@
 
 @interface YLFile : NSObject
 
-+(NSString *)yl_CachePath;
++(NSString *)yl_cachePath;
 @end

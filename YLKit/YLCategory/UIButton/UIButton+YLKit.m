@@ -105,9 +105,7 @@ UIButton_YLKit_Mark_(UpOutside)
 
 - (void)changeToType1Byspace:(CGFloat)space{
     
-    
-    
-    
+
     CGSize imageSize = self.imageView.frame.size;
     CGSize titleSize = self.titleLabel.frame.size;
     
@@ -140,29 +138,14 @@ UIButton_YLKit_Mark_(UpOutside)
 
 - (void)changeToType2Byspace:(CGFloat)space{
     
-    CGSize imageSize = self.imageView.frame.size;
-    CGSize titleSize = self.titleLabel.frame.size;
+    CGSize size = [self sizeThatFits:CGSizeMake(MAXFLOAT, MAXFLOAT)];
     
-    CGFloat width_no_edge = titleSize.width + imageSize.width;
-    CGFloat height_no_edge = self.frame.size.height;
+    CGRect rect = self.frame;
+    rect.size.width = size.width + space;
+    [self setFrame:rect];
     
-    CGFloat width = width_no_edge + self.contentEdgeInsets.left + self.contentEdgeInsets.right + space;
-    CGFloat height = height_no_edge + self.contentEdgeInsets.top + self.contentEdgeInsets.bottom;
+    self.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+    self.titleEdgeInsets = UIEdgeInsetsMake(0, 0, 0, space);
     
-    
-    [self setFrame:(CGRect){self.frame.origin,CGSizeMake(width, height)}];
-    
-    
-    self.imageEdgeInsets =
-    UIEdgeInsetsMake(0,
-                     titleSize.width + space,
-                     0,
-                     0);
-    
-    self.titleEdgeInsets =
-    UIEdgeInsetsMake(0,
-                     -imageSize.width - space,
-                     0,
-                     0);
 }
 @end

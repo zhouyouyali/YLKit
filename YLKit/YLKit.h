@@ -28,7 +28,7 @@
 #define YLNavigationHeight 44
 #define YLTabBarHeight 49.0
 
-#define YLVisibleHeight  ScreenHeight - TabBarHeight - NavigationHeight - StatusBarHeight
+#define YLVisibleHeight  YLScreenHeight - YLTabBarHeight - YLNavigationHeight - YLStatusBarHeight
 #define YLKeyWindow      [[UIApplication sharedApplication] keyWindow]
 
 #define YLTICK   NSDate *startTime = [NSDate date]
