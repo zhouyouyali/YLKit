@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "YLKit.h"
 #import "UIView+YLKit.h"
+#import "UIButton+YLKit.h"
 
 @interface ViewController ()
 
@@ -29,6 +30,13 @@
 //        NSLog(@"xxx");
 //    }];
 
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setBackgroundColor:[UIColor blackColor]];
+    [btn setTitle:@"title" forState:UIControlStateNormal];
+    [btn setImage:YLImg(@"btn") forState:UIControlStateNormal];
+    [btn yl_changeType:YLButtonArrangeType2 space:10.f];
+    [[self view] addSubview:btn];
+    [btn setCenter:CGCenterView(self.view)];
 }
 
 
