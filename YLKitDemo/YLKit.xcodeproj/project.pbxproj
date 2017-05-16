@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2211CBA1EC5520700BB028C /* YLSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2211CB91EC5520700BB028C /* YLSegmentView.m */; };
 		D22221581EB05CC00003BD45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D22221571EB05CC00003BD45 /* main.m */; };
 		D222215B1EB05CC00003BD45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D222215A1EB05CC00003BD45 /* AppDelegate.m */; };
 		D222215E1EB05CC00003BD45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D222215D1EB05CC00003BD45 /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D2211CB81EC5520700BB028C /* YLSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSegmentView.h; sourceTree = "<group>"; };
+		D2211CB91EC5520700BB028C /* YLSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSegmentView.m; sourceTree = "<group>"; };
 		D22221531EB05CC00003BD45 /* YLKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22221571EB05CC00003BD45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D22221591EB05CC00003BD45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2211CB21EC551AF00BB028C /* YLClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D2211CB31EC551AF00BB028C /* YLSegmentView */,
+			);
+			path = YLClasses;
+			sourceTree = "<group>";
+		};
+		D2211CB31EC551AF00BB028C /* YLSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				D2211CB81EC5520700BB028C /* YLSegmentView.h */,
+				D2211CB91EC5520700BB028C /* YLSegmentView.m */,
+			);
+			path = YLSegmentView;
+			sourceTree = "<group>";
+		};
 		D222214A1EB05CC00003BD45 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +145,7 @@
 				D2A525011EB09DA1008D6A7A /* YLKit.h */,
 				D2A524FB1EB09DA1008D6A7A /* YLBlockType.h */,
 				D2A525021EB09DA1008D6A7A /* YLCGType.h */,
+				D2211CB21EC551AF00BB028C /* YLClasses */,
 				D2A525161EB83656008D6A7A /* YLCategory */,
 				D2A525061EB81FC1008D6A7A /* YLMethod */,
 			);
@@ -329,6 +350,7 @@
 				D2A5250D1EB82074008D6A7A /* YLFile.m in Sources */,
 				D2A525101EB82662008D6A7A /* YLTime.m in Sources */,
 				D2A5254F1EB970B6008D6A7A /* UIView+YLKit.m in Sources */,
+				D2211CBA1EC5520700BB028C /* YLSegmentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

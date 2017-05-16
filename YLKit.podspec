@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YLKit"
-  s.version      = "5.0.0"
+  s.version      = "5.0.2"
   s.summary      = "empty"
   s.homepage     = "https://github.com/zhouyouyali/YLKit"
   s.license      = 'MIT'

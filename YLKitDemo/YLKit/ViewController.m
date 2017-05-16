@@ -11,8 +11,12 @@
 #import "UIView+YLKit.h"
 #import "UIButton+YLKit.h"
 
+
+#import "YLSegmentView.h"
+
 @interface ViewController ()
 
+@property (nonatomic, strong) YLSegmentView *segView;
 @end
 
 @implementation ViewController
@@ -20,23 +24,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+   
     
-    UIView *v1 = [[UIView alloc] initWithFrame:CGRectMake(0, 100, 50, 40)];
-    [v1 setBackgroundColor:[UIColor blueColor]];
- 
-    [[self view] yl_autoLayoutByItem:@[v1]];
-//    
-//    [v1 setYl_tapGesture:^{
-//        NSLog(@"xxx");
-//    }];
+    
+    _segView = [[YLSegmentView alloc] initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>)]
 
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [btn setBackgroundColor:[UIColor blackColor]];
-    [btn setTitle:@"title" forState:UIControlStateNormal];
-    [btn setImage:YLImg(@"btn") forState:UIControlStateNormal];
-    [btn yl_changeType:YLButtonArrangeType2 space:10.f];
-    [[self view] addSubview:btn];
-    [btn setCenter:CGCenterView(self.view)];
 }
 
 
