@@ -63,7 +63,7 @@
         _titleSize  = [[NSMutableArray alloc] initWithCapacity:0];
         _titleCenterX = [[NSMutableArray alloc] initWithCapacity:0];
         
-        
+         
         
     }
     return self;
